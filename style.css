@@ -14,6 +14,19 @@ body {
   justify-content: space-between;
 }
 
+h1 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -26,6 +39,11 @@ li {
 a {
   text-decoration: none;
   color: #f9faf8;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 .wrapper {
@@ -66,10 +84,10 @@ a {
   gap: 30px;
   align-items: center;
   padding: 20px 0;
+  margin: 80px 0;
 }
 
 .header-hero-text h1 {
-  font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
   margin-bottom: 10px;
@@ -84,8 +102,97 @@ a {
 
 .header-hero-text button {
   background-color: #3882f6;
-  color: #fff;
+  color: #f9faf8;
   padding: 8px 24px;
   border: none;
   border-radius: 5px;
+}
+
+.main-1,
+.main-3 {
+  padding: 100px 0;
+}
+
+.main-1 .heading {
+  text-align: center;
+}
+
+.main-1 .box-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.main-1 .box {
+  max-width: 180px;
+}
+
+.main-1 .box-image {
+  width: 100%;
+  height: 180px;
+  border: 3px #3882f6 solid;
+  border-radius: 15px;
+}
+
+.main-1 .box-text {
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.gray-bg {
+  background-color: #e5e7eb;
+}
+
+.main-2 {
+  padding: 100px 0;
+  color: #1f2937;
+}
+
+.main-2 .quote-text {
+  font-style: italic;
+}
+
+.main-2 .quote-author {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-3 {
+  padding: 100px 0;
+}
+
+.main-3 .card {
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 10px;
+}
+
+.main-3 .card-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  color: #f9faf8;
+}
+
+.main-3 button.card-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 24px;
+  border: 2px #f9faf8 solid;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.footer p {
+  padding: 40px 0;
 }
